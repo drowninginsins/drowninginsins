@@ -1,0 +1,125 @@
+.main {margin-left: 230px; 
+    margin-right: 50px; 
+    margin-top: 20px;
+    background-color: #000000; 
+    border: 3px solid #c52323;
+    border-radius: 10px;
+    height: 100%;}
+    
+ 
+ h1 {
+ font-family: "arial"; 
+ text-align: left; 
+ margin-right: 10px; 
+ margin-left: 20px; 
+ color: #ffffff;}
+ 
+ p {
+ font-family: "arial"; 
+ text-align: left; 
+ margin-right: 10px; 
+ margin-left: 20px; 
+ color: #ffffff;}
+ 
+ body {
+ font-family: "arial";
+ margin: 0;
+ color: #ffffff; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* slideshow code */
+.container {
+  position: relative;
+}
+
+.slides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 7%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+/* end slideshow code */
+
+.navi {background-image: url("https://i.ytimg.com/vi/1iIXx55Orwg/maxresdefault.jpg");
+    width: 200px;
+	margin-top: 85px;
+    height: 100%;
+    position: fixed; 
+    margin: none; 
+    padding: none; 
+    top: 0; 
+    left: 0;} 
+    
+ .box {
+    width: 175px;
+    height: 70px;
+    border-radius: 10px;
+    border: 3px solid #c52323; 
+    margin: 20px;
+    margin-left: 30px;
+	}
+	
+.button, input[type=submit]{
+	float: left;
+	margin-top: 20px;
+    cursor:pointer;
+	border-radius: 10px;
+    width:80px;
+    height:25px;
+  }
+
+  .button:active {
+    background-color:red;
+  }
+  
+  a {
+	color: white;
+  }
+  
+  h2, h3 {
+	margin-left: 20px;
+  }
+  
+ hr {
+  border-top: 1px solid #ffffff;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
